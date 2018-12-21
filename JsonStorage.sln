@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonStorage", "JsonStorage\JsonStorage.csproj", "{9A1C4EF5-B74F-4C20-A658-CA98A14A5A3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonStorage.Console", "JsonStorage.Console\JsonStorage.Console.csproj", "{9EEB4E44-66C8-4BA7-A076-53F86EB84DCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{AAC912E0-4B93-4622-B8F1-4B8D44F185AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9A1C4EF5-B74F-4C20-A658-CA98A14A5A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A1C4EF5-B74F-4C20-A658-CA98A14A5A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A1C4EF5-B74F-4C20-A658-CA98A14A5A3E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9EEB4E44-66C8-4BA7-A076-53F86EB84DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9EEB4E44-66C8-4BA7-A076-53F86EB84DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9EEB4E44-66C8-4BA7-A076-53F86EB84DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9EEB4E44-66C8-4BA7-A076-53F86EB84DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC912E0-4B93-4622-B8F1-4B8D44F185AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC912E0-4B93-4622-B8F1-4B8D44F185AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC912E0-4B93-4622-B8F1-4B8D44F185AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC912E0-4B93-4622-B8F1-4B8D44F185AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

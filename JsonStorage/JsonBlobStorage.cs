@@ -9,6 +9,10 @@ namespace JsonStorage
 	{
 		protected abstract CloudBlobContainer GetContainer();
 
+		/// <summary>
+		/// Override this to modify the key as needed to inject any context you might need.
+		/// Result must be URI-compliant since it will be a blob name
+		/// </summary>
 		protected virtual string GetBlobKey(string key)
 		{
 			return key;
