@@ -31,7 +31,9 @@ namespace JsonStorage
 		private CloudBlockBlob GetBlobInner(string key)
 		{
 			var container = GetContainer();
-			return container.GetBlockBlobReference(GetBlobKey(key));
+			var result = container.GetBlockBlobReference(GetBlobKey(key));
+			result.Properties.ContentType = "text/json";
+			return result;
 		}
 
 		public T Get<T>(string key, T defaultValue = default(T))

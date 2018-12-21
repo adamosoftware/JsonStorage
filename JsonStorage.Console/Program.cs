@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using JsonStorage.Console.Models;
 
 namespace JsonStorage.Console
 {
-	class Program
+	internal class Program
 	{
-		static void Main(string[] args)
+		private static void Main(string[] args)
 		{
+			var storage = new MyJsonBlobStorage();
+			//storage.Set("sample", new SampleType() { Greeting = "hello" });
+
+			var sample = storage.Get<SampleType>("sample");
 		}
 	}
 }
